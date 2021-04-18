@@ -7,10 +7,26 @@
 <html lang= "en">
     <head>     
         
-        <meta charset="utf-8" /><!-- 8-bit character encoding capable of encoding all possible characters-->
+         <meta charset="utf-8" /><!-- 8-bit character encoding capable of encoding all possible characters-->
         <meta name="description" content="Solar Travel Agency"/>
         <meta name="keywords" content="summer, beach, travel, packets, holidays, packets"/>
         <link rel="stylesheet" href="style/style.css" />
+        <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon.ico"> 
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+        
         <title>Destinations</title> 
       
         
@@ -18,19 +34,17 @@
     
     
     <body> <!--- Body Tag Start of Body section display on screen -->
-         
-     <header>
-         <!-- inline styling for image to the logo -->
         
-          <img style="float: left; margin-right:10px; height:150px;" src="images/logo.png" alt="logo" width = "250px" >
-         <h1>Solar Travel Agency</h1>
-         <h3> Your holidays starts here!</h3>
-         </header>
         
         <nav>  <!-- Navigation to other pages -->
+            <!-- inline styling for image to the logo 
+ <img style="float: left; margin-right:10px; height:150px; width: 200px;" src="images/logo.png" alt="logo" width = "250px" >-->        
+         
+          
+       
             <ul> <!-- unordered list -->
                 <li id=active> <a href="index.html"> Home</a></li> <!-- list-->
-                <li id=active> <a href="tickets.html"> Tickets</a></li> <!-- list-->
+                <li id=active> <a class="current" href="tickets.html"> Tickets</a></li> <!-- list-->
                 <li> <a href="destinations.html"> Destinations</a></li> <!-- list-->
                 <li> <a href="offers.html"> Offers</a></li> <!-- list-->
                 <li> <a href="information.html"> Information</a></li> <!-- list-->            
@@ -38,23 +52,177 @@
             </ul>
             
        </nav> 
+         <img id="mainpic"style=" width: 250px; " src="images/logo.png" alt="mainlogo"  >
+        <header> 
         
-         <h2>Find your tickets</h2>
+        
+       <section class="textlogomain"> 
+            <h1><f>S</f>olar <ff>T</ff>ravel <fff>A</fff>gency</h1>
+           <h2>Your holidays start here!</h2>
+         </section>
+            
+      
+       </header>
+        
+        <section class="orangebar">
+          <h2> COVID-19*: Please visit our <a href="https://www.dfa.ie/travel/travel-advice/coronavirus/general-covid-19-travel-advisory/">Help Center</a> for regular updates and customer support.</h2>
+      
+        
+        </section>
+        
+    
+         
+   <section class="niceback">        
+        
+        </section>
+       <section class="firstsetenece">  <h1> Find your tickets! </h1></section>
         <main>     
-       
-            <img style="float: right"src="images/pic1.jpg" alt="rio" width=30% height = 250px/>          
-     
-            <article>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                <a href ="https://en.wikipedia.org/wiki/Deer" > More text</a>
-           </article>
-                  
-        </main>
+            
+            
+            
+            
+       <section class="ticketbox">
+            
+      <!--    <img style="float: right"src="images/pic1.jpg" alt="rio" width=auto height = auto/>  -->
+            
+            <section class="form">
+            <h1>Plan your next holiday! </h1>
+            <form action="http://foo.com" method="get">
+            <label for="first_name"> First Name:<span class="required">*</span></label>
+            <input type="text" name="first_name" id="first_name" autofocus required><br>
+            <label for="last_name"> Last Name:<span class="required">*</span></label>    
+            <input type="text" name="last_name" id="last_name" autofocus required><br>  
+            <label for="email">     E-mail:<span class="required">*</span></label> 
+            <input type="email" name="email" id="email" required placeholder="youremail@here.com"><br>    
+                
+            <label for="departure"> Flights </label>
+            <input type="radio" id="departure" name="departure" value="Return"> Return   
+             <input type="radio" id="departure" name="departure" value="One Way"> One Way   
+             <input type="radio" id="departure" name="departure" value="Multi-city"> Multi-city
+             <input type="checkbox" id="allinclusive" name="Direct flights only" value="directflights" checked> Direct flights only<br>
+                
+              <img class="planin"src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik01MDYuNDg5LDg1LjUwNGMtMTEuNTA4LTE5LjkzMi0zNy4xNDUtMjYuNTItNTYuODM2LTE0LjYwNGwtMTA3Ljc4NCw2NS4yMjRsLTExOC4zNS03Ny43NzZsLTcxLjk4Nyw0MS4wMjdsOTEuMzM2LDk2LjY1Nw0KCQkJTDEzMS45MywyNjMuMTY0bC01My4xNjktMjQuMDMzbC00OS40NjcsMjguNTZsNzQuMDg5LDUwLjU0Nmw2MS45NjgsMi44MTRsMzI1LjM2OC0xNzkuMDI0DQoJCQlDNTEwLjg4MywxMzAuOTMyLDUxNy45OTcsMTA1LjQzNiw1MDYuNDg5LDg1LjUwNHoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHJlY3QgeT0iNDIzLjY1MiIgd2lkdGg9IjQ1NS4wMyIgaGVpZ2h0PSIzMCIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" /> <input type="wherefrom" name="from" id="from" required placeholder="Where from?"><br>
+              <img class="planout" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxnPg0KCQkJPHBhdGggZD0iTTE5My42MTcsMzAzLjY5N2wxMTcuMDg2LDMxLjM5NGwxNDMuMjI1LDM4LjRjMjEuNTU4LDUuNzk0LDQzLjY1NS03LjAwNiw0OS40NDgtMjguNTY0DQoJCQkJYzUuNzk0LTIxLjU1OC03LjAwNi00My42NTUtMjguNTY0LTQ5LjQ0OGwtMTQzLjIyNS0zOC40bC03NC4yNC0yNDMuMDY1TDIwNS4yMDQsMHYyMjMuMTI0bC0xMzMuNzk0LTM1Ljg0bC0yNS4wNjEtNjIuNTE4DQoJCQkJTDcuMjc2LDExNC4yNTd2MTM5LjQ1M2w0My4yNSwxMS41ODdMMTkzLjYxNywzMDMuNjk3eiIvPg0KCQkJPHJlY3QgeT0iNDU4LjEwNSIgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1My44OTUiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />  <input type="whereto" name="to" id="from" required placeholder="Where to?"><br>
+                
+                <br><br>
+             <label for="passengers">Travellers</label>
+            <input type="radio" id="passengers" name="passengers" value="Family Trip"> Family Trip    
+             <input type="radio" id="passengers" name="passengers" value="1 Person"> 1 person
+            <input type="radio" id="passengers" name="passengers" value="Couple" > Couple   
+             <input type="radio" id="departure" name="departure" value="Other"> Other <br>     
+                <br>    <br>
+            <label for ="additionals"> Hotels </label>        
+                              
+                <input type="City" name="city" id="city" required placeholder="country, city, district..."><br>
+          <br> <br>
+                <label for="checkin">Check-in</label>
+<input type="date" name="chechin" id="checkin">
+          
+                    <label for="checkout">Check-out</label>
+<input type="date" name="chechout" id="checkout">
+                
+            <fieldset>
+            <input type="checkbox" id="allinclusive" name="allinclusive" value="allinclusive" checked> All inclusive accomodation<br>
+            <input type="checkbox" id="Travel Insurance" name="Travel Insurance" value="Travel Insurance" checked> Travel Insurance <br>    
+            <input type="checkbox" id="tickets" name="tickets" value="tickets" checked> Tickets for main attractions <br>  
+            </fieldset>    
+                <br>
+                            
+           <label for="message"> Add here any other facility you want</label>
+                <textarea cols="40" rows="6" id="message" placeholder="E.g: Hotel close to the beach, pet friendly, special needs (max 200 characters)" data-maxlength="200"></textarea><br>
+                
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+      
+                </form>
+            <p style="margin-left: 0px"> <span class="required"> <em> * indicates a required field</em></span></p>
+                        
         
+            </section>
+            
+            
+            </section>
+                   
+     
+           <section class="maintextindex2">
+              
+              <h1> Over 10 years of experience!</h1>
+              
+              
+         <section class="maintextpage2" > 
+                <img class="bkgpic2"  src="images/travelpng1.png" alt="baggage" height=334.5px; width=386.5px;/>    
+                     
+              <h3> 
+We at Solar Travel Agency have 10 years experience and are the Irish Travel experts for South America, Nature packages, Worldwide Holidays, European Holidays, City Breaks, Adventure Holidays, cheap sun holidays, last minute holidays, summer holidays and much more.
+
+Get the latest deals on incredible cruise holidays to the Mediterranean, the Caribbean, Cuba, Dubai and more. 
+
+We hope you enjoy browsing through our comprehensive range of holidays and short breaks and we look forward to taking care of your holiday arrangements.
+               
+             </h3>
+             
+             
+             
+              </section>   
+              
+              
+              
+                    
+                          
+                          
+           </section>
+            
+            
+        </main>
+            
+            <section class="socialmediaicons">
+            
+             <img class="stamps" src="images/socialmedia.jpg" alt="socialmediaicons" width=auto; height = 60px;/>
+               </section>
+        
+        
+             
+            
+                  
+     
+        
+      <section class="centralbar">
+            
+            
+            
+            
+            
+            </section>
+               <section class="niceback">
+            
+            
+            
+            
+            
+            
+            </section>
+            
+       
+        <section class="finalspace">
+         
+         <img class="stamps" src="images/stamps.jpg" alt="iata stamp" width=auto; height = 60px;/>
+         
+        
+        
+        </section>
         
         
     <footer><!-- Footer grouping of content for the bottom of the screen and will nedd css to place at the bottom -->
-        <p> &copy;2021 Solar Travel Agency</p>        
+     
+                <a href="index.html"> Home</a> <!-- list-->
+                <a href="tickets.html"> Tickets</a>
+                <a href="destinations.html"> Destinations</a>
+                <a href="offers.html"> Offers</a>
+                <a href="information.html"> Information</a>
+          <p> &copy;2021 Solar Travel Agency </p>
+                          
+               
+          
         </footer>
         
     </body>
