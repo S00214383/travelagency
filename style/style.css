@@ -561,6 +561,7 @@ fff {
 }
 
 tr {
+    border: 5px solid ;
    margin-left: auto;
     margin-right: auto;
 }
@@ -1032,4 +1033,12 @@ font-family: 'Ubuntu', sans-serif;
     background: #95C75A;
     list-style-type: none;
     margin-top: -30%;
+}
+
+.tabletype {
+     border: 5px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 35%;
+  text-align: left;
+  border-collapse: collapse;
 }
